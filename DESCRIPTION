@@ -1,6 +1,6 @@
 Package: BuildABiocWorkshop
 Title: Bioconductor or R Workshop Template and Github Actions
-Version: 2.0.0
+Version: 2.0.1
 Authors@R: 
     person(given = "Sean",
            family = "Davis",
