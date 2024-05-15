@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How To Build A Workshop Package • BuildABiocWorkshop</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/flatly/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/flatly/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../bootstrap-toc.css">
 <script src="../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
@@ -33,7 +33,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">BuildABiocWorkshop</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2.0.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2.0.1</span>
       </span>
     </div>
 
@@ -99,39 +99,32 @@ Action to build all the pieces necessary for a workshop.</p>
 </h2>
 <ul class="task-list">
 <li>
-<input type="checkbox">Create a repo from this template and rename
-it (do not fork the repository).
+<label><input type="checkbox">Create a repo from this template and
+rename it (do not fork the repository).</label>
 <ul class="task-list">
-<li>
-<input type="checkbox">Ensure that “Read and Write Permissions” is
-checked under <a href="https://github.com/seandavi/BuildABiocWorkshop/settings/actions" class="external-link">General
-&gt; Workflow permissions</a>.</li>
+<li><label><input type="checkbox">Ensure that “Read and Write
+Permissions” is checked under <a href="https://github.com/seandavi/BuildABiocWorkshop/settings/actions" class="external-link">General
+&gt; Workflow permissions</a>.</label></li>
 </ul>
 </li>
 <li>
-<input type="checkbox">Edit <code>DESCRIPTION</code> file
+<label><input type="checkbox">Edit <code>DESCRIPTION</code>
+file</label>
 <ul class="task-list">
-<li>
-<input type="checkbox">Change package name</li>
-<li>
-<input type="checkbox">Change title and description</li>
-<li>
-<input type="checkbox">Change authors</li>
-<li>
-<input type="checkbox">Check dependencies</li>
-<li>
-<input type="checkbox">Change DockerImage tag</li>
+<li><label><input type="checkbox">Change package name</label></li>
+<li><label><input type="checkbox">Change title and
+description</label></li>
+<li><label><input type="checkbox">Change authors</label></li>
+<li><label><input type="checkbox">Check dependencies</label></li>
+<li><label><input type="checkbox">Change DockerImage tag</label></li>
 </ul>
 </li>
-<li>
-<input type="checkbox">Edit ’_pkgdown.yml’ (and
-<code>.github/workflows yaml file</code> as needed)</li>
-<li>
-<input type="checkbox">Write a normal R package that can be
-installed</li>
-<li>
-<input type="checkbox">Include one or more vignettes that will
-constitute the workshop materials</li>
+<li><label><input type="checkbox">Edit ’_pkgdown.yml’ (and
+<code>.github/workflows yaml file</code> as needed)</label></li>
+<li><label><input type="checkbox">Write a normal R package that can be
+installed</label></li>
+<li><label><input type="checkbox">Include one or more vignettes that
+will constitute the workshop materials</label></li>
 </ul>
 </div>
 <div class="section level2">
@@ -239,7 +232,7 @@ R package install commands.</p>
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.9.</p>
 </div>
 
       </footer>
