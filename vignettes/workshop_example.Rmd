@@ -103,8 +103,5 @@ Some examples:
 Divide the workshop into sections (`## A Section`). Include
 fully-evaluated _R_ code chunks. Develop exercises and solutions, and
 anticipate that your audience will walk through the code with you, or
-work on the code idependently -- do not be too ambitious in the
+work on the code independently -- do not be too ambitious in the
 material that you present.
-
-
-
